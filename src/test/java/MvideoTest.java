@@ -39,6 +39,7 @@ public class MvideoTest extends TestBase {
         Selenide.$("mvid-login-form-phone form h2")
                 .shouldHave(Condition.text("Вход или регистрация"));
     }
+
     @DisplayName("Checking the availability of the product category")
     @Test
     public void testCheckProductCategory() {
