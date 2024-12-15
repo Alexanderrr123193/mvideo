@@ -46,7 +46,7 @@
 ```
 gradle clean test
 ```
-## <img width="4%" style="vertical-align:middle" id="telegramNotification" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram
+## <img width="4%" style="vertical-align:middle" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram
 
 
 
@@ -54,7 +54,7 @@ gradle clean test
 <img width="70%" title="Telegram Notifications" src="images/screen/tg.png">
 </p>
 
-## <img width="4%" style="vertical-align:middle" id="telegramNotification" title="Allure" src="images/logo/Allure.svg"> Отчет Allure
+## <img width="4%" style="vertical-align:middle" title="Allure" src="images/logo/Allure.svg"> Отчет Allure
 
 [Перейти к отчету Allure](https://jenkins.autotests.cloud/job/31_mvideo/allure/)
 
@@ -62,7 +62,7 @@ gradle clean test
 <img width="70%" title="Telegram Notifications" src="images/screen/1.png">
 </p>
 
-## <img width="4%" style="vertical-align:middle" id="telegramNotification" title="Selenoid" src="images/logo/Selenoid.svg"> Видео запуска тестов в Selenoid
+## <img width="4%" style="vertical-align:middle" title="Selenoid" src="images/logo/Selenoid.svg"> Видео запуска тестов в Selenoid
 
 <p align="center">
   <img width="70%" src="images/screen/gif/test.gif" alt="Test Video GIF">
