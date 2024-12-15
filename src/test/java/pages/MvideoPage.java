@@ -38,6 +38,9 @@ public class MvideoPage {
     public void checkCategoryPageTitle(String expectedTitle) {
         categoryPageTitle.shouldHave(Condition.text(expectedTitle));
     }
-
+    public void closeCityPopup() {
+        Selenide.$(".location-interactive .location-options .mv-main-button--content")
+                .shouldHave(Condition.text("Все верно")).click();
+    }
 
 }

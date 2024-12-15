@@ -1,4 +1,5 @@
 import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import pages.MvideoPage;
@@ -10,6 +11,7 @@ public class MvideoTest extends TestBase {
     @Test
     public void testCart() {
         mvideoPage.openMainPage();
+        mvideoPage.closeCityPopup();
         mvideoPage.cartButton.click();
         mvideoPage.emptyCartMessage.shouldHave(Condition.text("Корзина пуста"));
     }
@@ -18,6 +20,7 @@ public class MvideoTest extends TestBase {
     @Test
     public void testPhone() {
         mvideoPage.openMainPage();
+        mvideoPage.closeCityPopup();
         mvideoPage.checkPhoneNumber();
     }
 
@@ -25,6 +28,7 @@ public class MvideoTest extends TestBase {
     @Test
     public void testVisibleProfile() {
         mvideoPage.openMainPage();
+        mvideoPage.closeCityPopup();
         mvideoPage.checkProfileButton();
     }
 
@@ -32,6 +36,7 @@ public class MvideoTest extends TestBase {
     @Test
     public void testVisibleProfileToLogInToTheSite() {
         mvideoPage.openMainPage();
+        mvideoPage.closeCityPopup();
         mvideoPage.profileButton.click();
         mvideoPage.loginFormHeader.shouldHave(Condition.text("Вход или регистрация"));
     }
@@ -40,6 +45,7 @@ public class MvideoTest extends TestBase {
     @Test
     public void testCheckProductCategory() {
         mvideoPage.openMainPage();
+        mvideoPage.closeCityPopup();
         mvideoPage.checkProductCategoryAvailability();
         mvideoPage.checkCategoryPageTitle("Товары для укладки волос");
     }
