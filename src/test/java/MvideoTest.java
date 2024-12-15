@@ -3,9 +3,7 @@ import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
 import static com.codeborne.selenide.Selenide.*;
-
 
 public class MvideoTest extends TestBase {
     @DisplayName("Check cart on main page")
