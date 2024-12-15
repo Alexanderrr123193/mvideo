@@ -2,18 +2,24 @@ import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import pages.MvideoPage;
+//import pages.MvideoPage;
+import pages.*;
+
 public class MvideoTest extends TestBase {
 
     MvideoPage mvideoPage = new MvideoPage();
+    HairStylingProductsPage hairStylingProductsPage = new HairStylingProductsPage();
+    CartPage cartPage = new CartPage();
+    ProfilePage profilePage = new ProfilePage();
+    LoginPage loginPage = new LoginPage();
 
     @DisplayName("Check cart on main page")
     @Test
     public void testCart() {
         mvideoPage.openMainPage();
         mvideoPage.closeCityPopup();
-        mvideoPage.cartButton.click();
-        mvideoPage.emptyCartMessage.shouldHave(Condition.text("Корзина пуста"));
+        cartPage.openCart();
+        cartPage.verifyEmptyCartMessage("Корзина пуста");
     }
 
     @DisplayName("Check visible number phone on main page")
@@ -29,7 +35,7 @@ public class MvideoTest extends TestBase {
     public void testVisibleProfile() {
         mvideoPage.openMainPage();
         mvideoPage.closeCityPopup();
-        mvideoPage.checkProfileButton();
+        profilePage.verifyProfileButton();
     }
 
     @DisplayName("Check the ability to log in to the site")
@@ -37,8 +43,8 @@ public class MvideoTest extends TestBase {
     public void testVisibleProfileToLogInToTheSite() {
         mvideoPage.openMainPage();
         mvideoPage.closeCityPopup();
-        mvideoPage.profileButton.click();
-        mvideoPage.loginFormHeader.shouldHave(Condition.text("Вход или регистрация"));
+        profilePage.clickProfileButton();
+        loginPage.verifyLoginFormHeader("Вход или регистрация");
     }
 
     @DisplayName("Checking the availability of the product category")
@@ -47,6 +53,6 @@ public class MvideoTest extends TestBase {
         mvideoPage.openMainPage();
         mvideoPage.closeCityPopup();
         mvideoPage.checkProductCategoryAvailability();
-        mvideoPage.checkCategoryPageTitle("Товары для укладки волос");
+        hairStylingProductsPage.checkCategoryPageTitle("Товары для укладки волос");
     }
 }
