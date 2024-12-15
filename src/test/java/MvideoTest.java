@@ -3,9 +3,7 @@ import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
 import static com.codeborne.selenide.Selenide.*;
-
 
 public class MvideoTest extends TestBase {
     @DisplayName("Check cart on main page")
@@ -45,6 +43,7 @@ public class MvideoTest extends TestBase {
         Selenide.$("mvid-login-form-phone form h2")
                 .shouldHave(Condition.text("Вход или регистрация"));
     }
+
     @DisplayName("Checking the availability of the product category")
     @Test
     public void testCheckProductCategory() {
