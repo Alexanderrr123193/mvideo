@@ -32,6 +32,9 @@ dependencies {
             'org.seleniumhq.selenium:selenium-java:4.27.0',
             'org.yaml:snakeyaml:1.33')
 }
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
 
 test {
     useJUnitPlatform()
