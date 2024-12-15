@@ -60,7 +60,7 @@ ____
 </p>
 
 
-## <img width="4%" style="vertical-align:middle" title="Allure" id="allure src="images/logo/Allure.svg"> Отчет Allure
+## <img width="4%" style="vertical-align:middle" title="Allure" id="allure" src="images/logo/Allure.svg"> Отчет Allure
 ____
 [Перейти к отчету Allure](https://jenkins.autotests.cloud/job/31_mvideo/allure/)
 
