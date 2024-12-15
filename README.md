@@ -59,19 +59,19 @@ ____
 <img width="70%" title="Telegram Notifications" src="images/screen/tg.png">
 </p>
 
-<a id="allure"></a>
-## <img width="4%" style="vertical-align:middle" title="Allure" src="images/logo/Allure.svg"> Отчет Allure
-____
 
+## <img width="4%" style="vertical-align:middle" title="Allure" id="allure src="images/logo/Allure.svg"> Отчет Allure
+____
 [Перейти к отчету Allure](https://jenkins.autotests.cloud/job/31_mvideo/allure/)
 
 <p align="center">
 <img width="70%" title="Telegram Notifications" src="images/screen/1.png">
 </p>
 
-<a id="video"></a>
+
 ## <img alt="Selenoid" height="25" src="images/logo/Selenoid.svg" width="25"/></a> Видео запуска тестов в Selenoid
 ____
+<a id="video"></a>
 <p align="center">
 <img title="Selenoid Video" src="images/screen/gif/test.gif" width="550" height="350"  alt="video">   
 </p>
