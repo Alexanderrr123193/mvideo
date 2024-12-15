@@ -1,5 +1,6 @@
 
-## <img width="45%" style="vertical-align:middle" title="Mvideo" src="images/logo/mvideo.png"> Проект автоматизации тестирования для сайта Mvideo
+## <img width="25%" style="vertical-align:middle" title="Mvideo" src="images/logo/mvideo.png"> 
+## Проект автоматизации тестирования для сайта Mvideo
 
 Проект по автоматизации тестирования для компании Mvideo с использованием инструментов Selenide, JUnit 5 и Allure.
 
