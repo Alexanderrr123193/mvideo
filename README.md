@@ -49,3 +49,46 @@
 Локальный запуск:
 ```bash
 gradle clean test
+```
+
+<a id="allure"></a>
+## <img alt="Allure" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/allure/allure-original.svg" width="25"/> Allure [отчет](https://jenkins.autotests.cloud/job/C31-SerzhSH-java_17_axenix/13/allure/)
+
+### *Основная страница отчёта*
+
+<p align="center">  
+<img title="Allure Overview Dashboard" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/allure/allure-original.svg" width="850">  
+</p>  
+
+### *Тест-кейсы*
+
+<p align="center">  
+<img title="Allure Tests" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/allure/allure-original.svg" width="850">  
+</p>
+
+### *Графики*
+
+<p align="center">  
+<img title="Allure Graphics" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/allure/allure-original.svg" width="850">
+<img title="Allure Graphics" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/allure/allure-original.svg" width="850">  
+</p>
+
+____
+
+<a id="telegram"></a>
+## <img alt="Allure" height="25" src="images/logo/Telegram.svg" width="25"/></a> Уведомление в Telegram при помощи бота
+____
+<p align="center">  
+<img title="Allure Overview Dashboard" src="images/screen/telegram.png" width="550">  
+</p>
+
+____
+
+<a id="video"></a>
+## <img alt="Selenoid" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenoid/selenoid-original.svg" width="25"/> Примеры видео выполнения тестов на Selenoid
+
+____
+
+<p align="center">
+<img title="Selenoid Video" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenoid/selenoid-original.svg" width="550" height="350"  alt="video">   
+</p>
