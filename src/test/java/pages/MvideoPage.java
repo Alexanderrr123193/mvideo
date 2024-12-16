@@ -12,8 +12,7 @@ public class MvideoPage {
     public SelenideElement phoneNumber = $("mvid-header-container .phone-link-text");
     public SelenideElement productCategoryButton = $(".ng-star-inserted .button__label");
     public SelenideElement audioCategoryMenu = $("div.left-menu > div:nth-child(9)");
-    public SelenideElement categoryLink = $(".links-container.links-container--visible .main-links__link-home[href='https://www.mvideo.ru/tovary-dlya-ukladki-volos-4887']");
-
+   public SelenideElement categoryLink = $(".links-container.links-container--visible .main-links__link-home[href='https://www.mvideo.ru/tovary-dlya-ukladki-volos-4887']");
     @Step("Открыть главную страницу")
     public void openMainPage() {
         Selenide.open("https://www.mvideo.ru");

@@ -13,7 +13,7 @@ public class MvideoTest extends TestBase {
     ProfilePage profilePage = new ProfilePage();
     LoginPage loginPage = new LoginPage();
 
-    @DisplayName("Check cart on main page")
+    @DisplayName("Проверка корзины на главной странице")
     @Test
     public void testCart() {
         mvideoPage.openMainPage();
@@ -22,7 +22,7 @@ public class MvideoTest extends TestBase {
         cartPage.verifyEmptyCartMessage("Корзина пуста");
     }
 
-    @DisplayName("Check visible number phone on main page")
+    @DisplayName("Проверка видимости номера телефона на главной странице")
     @Test
     public void testPhone() {
         mvideoPage.openMainPage();
@@ -30,7 +30,7 @@ public class MvideoTest extends TestBase {
         mvideoPage.checkPhoneNumber();
     }
 
-    @DisplayName("Check visible profile on main page")
+    @DisplayName("Проверка профиля на главной странице")
     @Test
     public void testVisibleProfile() {
         mvideoPage.openMainPage();
@@ -38,7 +38,7 @@ public class MvideoTest extends TestBase {
         profilePage.verifyProfileButton();
     }
 
-    @DisplayName("Check the ability to log in to the site")
+    @DisplayName("Проверка возможности залогиниться")
     @Test
     public void testVisibleProfileToLogInToTheSite() {
         mvideoPage.openMainPage();
@@ -47,7 +47,7 @@ public class MvideoTest extends TestBase {
         loginPage.verifyLoginFormHeader("Вход или регистрация");
     }
 
-    @DisplayName("Checking the availability of the product category")
+    @DisplayName("Проверка наличия категории товара в каталоге")
     @Test
     public void testCheckProductCategory() {
         mvideoPage.openMainPage();
